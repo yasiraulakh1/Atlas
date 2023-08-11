@@ -39,6 +39,7 @@ function Footer({ onOpen }) {
             <p className="shadow">
               <a href="mailto:contact@atlasco.ai">Contact Us</a>
             </p>
+            
           </div>
           <div>
             <p>
