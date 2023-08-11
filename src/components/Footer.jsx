@@ -13,7 +13,7 @@ function Footer({ onOpen }) {
           </p>
         </div>
         <button className="newsletter_button" onClick={onOpen}>
-          Join Our newsleter
+          Join Our newsletter
         </button>
       </div>
       <div className="border"></div>
@@ -25,19 +25,27 @@ function Footer({ onOpen }) {
         </div>
         <div className="right">
           <div>
-            <p>Company</p>
-            <p className="shadow">About</p>
+            <p>
+              <a href="#">Company</a>
+            </p>
+            <p className="shadow">
+              <a href="#">About</a>
+            </p>
           </div>
           <div>
-            <p>Help</p>
+            <p>
+              <a href="#">Help</a>
+            </p>
             <p className="shadow">
               <a href="mailto:contact@atlasco.ai">Contact Us</a>
             </p>
           </div>
           <div>
-            <p>Resources</p>
-            <p className="shadow" onClick={onOpen}>
-              Join Our Newsleter
+            <p>
+              <a href="#">Resources</a>
+            </p>
+            <p className="shadow make_pointer" onClick={onOpen}>
+              Join Our newsletter
             </p>
           </div>
         </div>

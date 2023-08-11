@@ -16,12 +16,12 @@ const Menu = ({ onOpen }) => {
             Our Services
           </Link>
         </button>
-        <button
+        {/* <button
           className="top_section_menubar_2_button3"
           onClick={() => navigate("/career")}
         >
           Jobs/Careers
-        </button>
+        </button> */}
         <button className="top_section_menubar_2_button2" onClick={onOpen}>
           Join our newsletter
         </button>

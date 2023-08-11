@@ -101,4 +101,8 @@ hr {
   color: black;
 }
 
+.make_pointer {
+  cursor: pointer;
+}
+
 @media (max-width: 600px) {}

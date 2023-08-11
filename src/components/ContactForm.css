@@ -46,6 +46,8 @@
   max-height: 6em;
   resize: vertical;
   overflow-y: auto;
+
+  resize: none;
 }
 
 .button {
